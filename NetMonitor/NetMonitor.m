@@ -308,8 +308,6 @@ static inline void NetSwizzlingMethods(Class cls, SEL systemSel, SEL newSel){
 }
 
 
-
-
 -(void)handleClass:(NSString *)classStr{
     UIWindow *window = [[UIApplication sharedApplication].windows lastObject];
     NSLog(@"window:%@",window);
